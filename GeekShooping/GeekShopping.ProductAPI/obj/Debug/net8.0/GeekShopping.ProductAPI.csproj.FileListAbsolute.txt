@@ -32,7 +32,6 @@ C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net8
 C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net8.0\GeekShopping.ProductAPI.genruntimeconfig.cache
 C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net8.0\ref\GeekShopping.ProductAPI.dll
 C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net8.0\AutoMapper.dll
-C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net8.0\Humanizer.dll
 C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Code\microservices-dotnet\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
