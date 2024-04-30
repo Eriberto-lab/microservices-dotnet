@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EApQ7r/cLKzKTzHyrAUPfLssO4n4Hj9W4EjWTVUBuJI1QLXI+b/YUz6EF0yFo00gZfsup6CPTcsKWXrPCFBHNQ==",
+  "dgSpecHash": "Mv4PeJZhBkyN4qkf3gFzdkvaQiXG1OFUtFTrwnVtkS9FphnSFMS4QL/58rqKhco9vWCRnA3qvB+HgS2lFx2LxA==",
   "success": true,
   "projectFilePath": "C:\\Code\\microservices-dotnet\\GeekShooping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eriberto.lima\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\eriberto.lima\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\eriberto.lima\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\eriberto.lima\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.4\\microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
     "C:\\Users\\eriberto.lima\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
