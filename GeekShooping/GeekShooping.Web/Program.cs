@@ -2,16 +2,16 @@ using GeekShooping.Web.Services.IServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
+#pragma warning disable CS8604 // Possível argumento de referência nula.
+builder.Services.AddHttpClient<IProductService, ProductService>(
+    c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"])
+);
+#pragma warning restore CS8604 // Possível argumento de referência nula.
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
-builder.Services.AddHttpClient<IProductService, ProductService>(c =>
-
-    c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"])
-
-    );
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

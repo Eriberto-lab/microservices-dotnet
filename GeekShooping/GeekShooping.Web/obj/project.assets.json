@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\microservices-dotnet\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
-      "projectName": "GeekShooping.Web",
-      "projectPath": "C:\\Code\\microservices-dotnet\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
+      "projectUniqueName": "C:\\Code\\microservices-dotnet\\GeekShooping\\GeekShooping.Web\\GeekShopping.Web.csproj",
+      "projectName": "GeekShopping.Web",
+      "projectPath": "C:\\Code\\microservices-dotnet\\GeekShooping\\GeekShooping.Web\\GeekShopping.Web.csproj",
       "packagesPath": "C:\\Users\\eriberto.lima\\.nuget\\packages\\",
       "outputPath": "C:\\Code\\microservices-dotnet\\GeekShooping\\GeekShooping.Web\\obj\\",
       "projectStyle": "PackageReference",
