@@ -1,6 +1,7 @@
 ﻿using GeekShooping.Web.Models;
 using GeekShooping.Web.Utils;
 
+
 namespace GeekShooping.Web.Services.IServices
 {
     public class ProductService : IProductService
@@ -29,13 +30,13 @@ namespace GeekShooping.Web.Services.IServices
             return await response.ReadContentAs<ProductModel>();
         }
 
-        public async Task<ProductModel> UpdateProductById(ProductModel product)
+        public async Task<ProductModel> UpdateProduct(ProductModel model)
         {
-            var response = await _client.PutAsJson(BasePath, product);
-
-            if (response.IsSuccessStatusCode) return await response.ReadContentAs<ProductModel>();
-
-            else throw new Exception("Algo deu erro ao chamar a API");
+            var response = await _client.PutAsJsonAsync(BasePath, model);
+            Console.WriteLine($"{response} ---------- service update");
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<ProductModel>();
+            else throw new Exception("Something went wrong when calling API");
         }
 
         public async Task<ProductModel> CreateProduct(ProductModel product)
@@ -53,7 +54,7 @@ namespace GeekShooping.Web.Services.IServices
 
             if (response.IsSuccessStatusCode) return await response.ReadContentAs<bool>();
 
-            else throw new Exception("Algo deu erro ao chamar a API");
+            else throw new Exception($"Algo deu erro ao chamar a API {response.ReasonPhrase}");
         }
 
     }
